@@ -1,0 +1,107 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    scroll-margin: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(131,160,173,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+:root
+{
+    --white-glass: #f5f5f580;
+    --white: #f5f5f5;
+}
+#navbar ul li
+{
+    display: inline;
+    padding: 10px;
+}
+
+#navbar li a:hover
+{
+    color: gray;
+}
+
+#navbar ul
+{
+    justify-content: center;
+    /* width: 100vw;
+    height: 100vh; */
+    margin-top: 10px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: disc;
+    /* margin-block-start: 1em;
+    /*margin-block-end: 1em;*/
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    padding-inline-start: 40px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1
+{
+    text-align: center;
+    color: var(--white);
+}
+
+.text
+{
+    text-align: justify;
+    color: var(--white-glass);
+    padding: 100px;
+}
+
+.tamanho
+{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2
+{
+    text-align: center;
+    color: var(--white); 
+}
+
+.text-css
+{
+    text-align: center;
+    color: var(--white); 
+    display: flex; 
+}
+
+.alinha-tudo
+{
+    margin-left: 50px;
+}
+
+.margem
+{
+    margin-bottom: 50px;
+}
